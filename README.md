@@ -12,4 +12,5 @@
 ## Day two
 
 完成主进程的`Crash`目录设置。
+
 -[vscode源码学习：从零到一实现 Vscode-开启`CrashReporter`](https://juejin.cn/post/6899308822922936327)
