@@ -5,11 +5,18 @@ const ARGS_NAME = {
   crashReporterId: 'crash-reporter-id'
 }
 
+const GLOBAL_NAMES = {
+  getOpenUrls: 'getOpenUrls',
+  macOpenFiles: 'macOpenFiles'
+}
+
 const PROCESS_ENV = {
-  MY_VSCODE_DEV: 'MY_VSCODE_DEV'
+  MY_VSCODE_DEV: 'MY_VSCODE_DEV',
+  MY_VSCODE_CWD: 'MY_VSCODE_CWD'
 }
 
 export {
   ARGS_NAME,
-  PROCESS_ENV
+  PROCESS_ENV,
+  GLOBAL_NAMES
 }
