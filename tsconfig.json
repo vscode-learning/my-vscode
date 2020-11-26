@@ -6,10 +6,14 @@
      "importHelpers": true,
      "allowSyntheticDefaultImports": true,
      "target": "es5",
+     "resolveJsonModule": true,
      "lib": [
       "es2015"
      ]
   },
+  "files": [
+    "**/*.json"
+  ],
   "include": [
       "src" // write ts in src, you can define your own dir
   ]
